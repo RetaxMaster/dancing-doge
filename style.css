@@ -12,12 +12,24 @@ body {
 }
 
 body {
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     animation-name: disco;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+}
+
+#volume {
+    font-size: 40px;
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
 }
 
 @keyframes disco {
